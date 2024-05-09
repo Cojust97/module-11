@@ -1,25 +1,4 @@
- .button, .button-2 {
-   background-color: rgb(143, 197, 248);
-   cursor: pointer;
-   border: 0px;
-   padding: 5px;
- }
-
- .icon-1,
- .icon-2 {
-     display: none;
-     width: 20px;
-     height: 20px;
-     font-size: 15px;
- }
-
- .active {
-     display: flex;
-     align-items: center;
-     margin: 5px;
- }
-
- .chat {
+.chat {
     border: 1px solid black;
     box-shadow: 5px 5px 5px rgb(95, 103, 109);
     width: 380px;

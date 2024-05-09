@@ -1,22 +1,3 @@
-//задание 1
-const btn = document.querySelector('.button');
-const icon1 = document.querySelector('.icon-1');
-const icon2 = document.querySelector('.icon-2');
-
-btn.addEventListener('click', () => {
-    icon1.classList.toggle('active');
-    icon2.classList.toggle('active');
-});
-
-//задание 2
-function showScreenSize() {
-  const width = window.innerWidth;
-  const height = window.innerHeight;
-
-  alert(`Ширина экрана: ${width}px, высота экрана: ${height}px`);
-}
-
-//задание 3
 const text = document.getElementById('text');
 const messageInput = document.getElementById('message__input');
 const sendButton = document.getElementById('send__button');
