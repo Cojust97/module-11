@@ -1,0 +1,62 @@
+ .button, .button-2 {
+   background-color: rgb(143, 197, 248);
+   cursor: pointer;
+   border: 0px;
+   padding: 5px;
+ }
+
+ .icon-1,
+ .icon-2 {
+     display: none;
+     width: 20px;
+     height: 20px;
+     font-size: 15px;
+ }
+
+ .active {
+     display: flex;
+     align-items: center;
+     margin: 5px;
+ }
+
+ .chat {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgb(95, 103, 109);
+    width: 380px;
+    height: 380px;
+    box-shadow: 1px inset black;
+ }
+ .inline__block {
+   display: flex;
+   justify-content: space-between;
+ }
+ .inline__block, #text {
+    margin: 10px;
+ }
+ #message__input, #text {
+    border: 3px solid rgb(143, 197, 248);
+ }
+
+ #send__button, #location__button {
+    background-color: rgb(143, 197, 248);
+    border: 0px;
+    cursor: pointer;
+    padding: 5px;
+ }
+
+#text {
+   width: 355px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+}
+span {
+   border: 3px solid rgb(143, 197, 248);
+  display: inline-block;
+   margin: 3px;
+   width: 70%;
+   border-radius: 6px;
+}
+span:nth-child(odd) {
+   margin-left: 28%;
+}
